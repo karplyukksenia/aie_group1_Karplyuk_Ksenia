@@ -1,0 +1,30 @@
+{
+  "dataset_01": {
+    "best_algorithm": "kmeans",
+    "parameters": {
+      "n_clusters": 2,
+      "random_state": 17,
+      "n_init": 10
+    },
+    "criterion": "silhouette_score",
+    "reason": "Более высокий silhouette (0.5216 vs 0.4044), лучший Davies-Bouldin, стабильные результаты"
+  },
+  "dataset_02": {
+    "best_algorithm": "dbscan",
+    "parameters": {
+      "eps": 0.9000000000000001,
+      "min_samples": 20
+    },
+    "criterion": "silhouette_score",
+    "reason": "Значительно лучший silhouette (0.5242 vs 0.3069), обработка выбросов как шума (3.2%), соответствует описанию датасета"
+  },
+  "dataset_03": {
+    "best_algorithm": "dbscan",
+    "parameters": {
+      "eps": 0.3,
+      "min_samples": 20
+    },
+    "criterion": "silhouette_score + соответствие описанию данных",
+    "reason": "Лучший silhouette (0.3588 vs 0.3155), правильно идентифицирует фоновый шум (37.7%), соответствует описанию датасета"
+  }
+}
