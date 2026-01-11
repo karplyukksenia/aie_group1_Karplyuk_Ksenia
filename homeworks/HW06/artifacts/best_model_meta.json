@@ -1,0 +1,44 @@
+{
+  "best_model": "GradientBoosting",
+  "selection_criteria": "highest_roc_auc_on_test",
+  "test_metrics": {
+    "accuracy": 0.935,
+    "f1": 0.8955823293172691,
+    "roc_auc": 0.9735888223046062
+  },
+  "best_params": {
+    "learning_rate": 0.1,
+    "max_depth": 5,
+    "min_samples_leaf": 5,
+    "n_estimators": 200,
+    "subsample": 0.8
+  },
+  "model_comparison": {
+    "Dummy_stratified": {
+      "accuracy": 0.565,
+      "f1": 0.33162612035851474,
+      "roc_auc": "N/A"
+    },
+    "LogisticRegression": {
+      "accuracy": 0.825,
+      "f1": 0.7472924187725631,
+      "roc_auc": 0.8860734282159363
+    },
+    "DecisionTree": {
+      "accuracy": 0.8616666666666667,
+      "f1": 0.7750677506775068,
+      "roc_auc": 0.9240039865928598
+    },
+    "RandomForest": {
+      "accuracy": 0.93,
+      "f1": 0.8849315068493151,
+      "roc_auc": 0.9680370315118582
+    },
+    "GradientBoosting": {
+      "accuracy": 0.935,
+      "f1": 0.8955823293172691,
+      "roc_auc": 0.9735888223046062
+    }
+  },
+  "notes": "GradientBoosting \u043f\u043e\u043a\u0430\u0437\u0430\u043b \u043d\u0430\u0438\u043b\u0443\u0447\u0448\u0438\u0439 ROC-AUC \u043d\u0430 \u0442\u0435\u0441\u0442\u043e\u0432\u043e\u0439 \u0432\u044b\u0431\u043e\u0440\u043a\u0435"
+}

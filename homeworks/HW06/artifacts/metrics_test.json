@@ -1,0 +1,32 @@
+{
+  "Dummy_stratified": {
+    "accuracy": 0.565,
+    "f1": 0.33162612035851474,
+    "roc_auc": "N/A",
+    "params": "{'constant': None, 'random_state': 17, 'strategy': 'stratified'}"
+  },
+  "LogisticRegression": {
+    "accuracy": 0.825,
+    "f1": 0.7472924187725631,
+    "roc_auc": 0.8860734282159363,
+    "params": "{'memory': None, 'steps': [('scaler', StandardScaler()), ('logreg', LogisticRegression(class_weight='balanced', max_iter=1000, random_state=17))], 'verbose': False, 'scaler': StandardScaler(), 'logreg': LogisticRegression(class_weight='balanced', max_iter=1000, random_state=17), 'scaler__copy': True, 'scaler__with_mean': True, 'scaler__with_std': True, 'logreg__C': 1.0, 'logreg__class_weight': 'balanced', 'logreg__dual': False, 'logreg__fit_intercept': True, 'logreg__intercept_scaling': 1, 'logreg__l1_ratio': None, 'logreg__max_iter': 1000, 'logreg__multi_class': 'deprecated', 'logreg__n_jobs': None, 'logreg__penalty': 'l2', 'logreg__random_state': 17, 'logreg__solver': 'lbfgs', 'logreg__tol': 0.0001, 'logreg__verbose': 0, 'logreg__warm_start': False}"
+  },
+  "DecisionTree": {
+    "accuracy": 0.8616666666666667,
+    "f1": 0.7750677506775068,
+    "roc_auc": 0.9240039865928598,
+    "params": "{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 15, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 20, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 17, 'splitter': 'best'}"
+  },
+  "RandomForest": {
+    "accuracy": 0.93,
+    "f1": 0.8849315068493151,
+    "roc_auc": 0.9680370315118582,
+    "params": "{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 200, 'n_jobs': -1, 'oob_score': False, 'random_state': 17, 'verbose': 0, 'warm_start': False}"
+  },
+  "GradientBoosting": {
+    "accuracy": 0.935,
+    "f1": 0.8955823293172691,
+    "roc_auc": 0.9735888223046062,
+    "params": "{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.1, 'loss': 'log_loss', 'max_depth': 5, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 200, 'n_iter_no_change': None, 'random_state': 17, 'subsample': 0.8, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}"
+  }
+}
