@@ -5,11 +5,12 @@
     "model": {
         "name": "resnet18",
         "pretrained": true,
+        "weights": "ResNet18_Weights.DEFAULT",
         "fine_tune": "layer4 + fc",
         "num_classes": 10
     },
     "transforms": {
-        "type": "resnet_preprocess",
+        "type": "weights.transforms()",
         "normalize_mean": [
             0.485,
             0.456,
@@ -25,6 +26,9 @@
         "optimizer": "Adam",
         "learning_rate": 0.0001,
         "batch_size": 32,
-        "num_epochs": 10
+        "num_epochs": 10,
+        "loss": "CrossEntropyLoss",
+        "weight_decay": 0.0,
+        "scheduler": null
     }
 }

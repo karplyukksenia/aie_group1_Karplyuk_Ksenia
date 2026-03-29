@@ -65,6 +65,7 @@
 - Визуализация аугментаций: [`./artifacts/figures/augmentations_preview.png`](artifacts/figures/augmentations_preview.png)  
 - Метрики detection: [`./artifacts/figures/detection_metrics.png`](artifacts/figures/detection_metrics.png)  
 - Примеры предсказаний: [`./artifacts/figures/detection_examples.png`](artifacts/figures/detection_examples.png)
+- Конфигурация лучшей модели: [`./artifacts/best_classifier_config.json`](artifacts/best_classifier_config.json)
 
 **Короткая сводка**:
 - Лучший результат в части A показал эксперимент **C4** (ResNet18 с частичным fine-tuning) — val_accuracy = **0.868**, test_accuracy = **0.864**.  
