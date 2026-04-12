@@ -1,0 +1,41 @@
+question,answer,retrieved_sources
+What is a list in Python and how is it created?,"Источник: Python Lists Basics
+A list in Python is an ordered, mutable collection of items. Lists can contain elements of different types including integers, strings, floats, and even other
+
+Источник: List Comprehensions
+List comprehensions provide a concise way to create new lists. They consist of an expression followed by a for clause and optionally an if condition.
+
+Источник: Python Lists Basics
+strings, floats, and even other lists or dictionaries. Lists are created using square brackets []. One of the most important features of lists is that","Python Lists Basics, List Comprehensions, Python Lists Basics"
+What methods can I use to add or remove elements from a list?,"Источник: Working with Python Lists
+Python lists support many useful methods such as append(), extend(), insert(), remove(), pop(), and clear(). The append() method adds a single element to the end
+
+Источник: Python Lists Basics
+features of lists is that they can be modified after creation.
+
+Источник: Python Lists Basics
+A list in Python is an ordered, mutable collection of items. Lists can contain elements of different types including integers, strings, floats, and even other","Working with Python Lists, Python Lists Basics, Python Lists Basics"
+What is the difference between mutable and immutable objects?,"Источник: Mutable vs Immutable Objects
+Mutable objects can be changed after creation (lists, dictionaries, sets), while immutable objects cannot (tuples, strings, integers, floats). This distinction is crucial when working with
+
+Источник: Lists vs Tuples
+The main difference between lists and tuples is mutability. Lists are mutable, meaning their elements can be changed, added, or removed. Tuples are immutable. Because
+
+Источник: Shallow Copy vs Deep Copy
+When copying mutable objects, it's important to understand the difference between shallow and deep copies. A shallow copy creates a new object but inserts references","Mutable vs Immutable Objects, Lists vs Tuples, Shallow Copy vs Deep Copy"
+What is a set in Python and when should I use it?,"Источник: Python Lists Basics
+A list in Python is an ordered, mutable collection of items. Lists can contain elements of different types including integers, strings, floats, and even other
+
+Источник: Dictionaries in Python
+values can be of any type. Dictionaries are created using curly braces {} and are one of the most frequently used data structures in Python
+
+Источник: Dictionaries in Python
+A dictionary is an unordered collection of key-value pairs. Keys must be unique and immutable (usually strings or numbers), while values can be of any","Python Lists Basics, Dictionaries in Python, Dictionaries in Python"
+How can I handle exceptions and errors in Python?,"Источник: Error Handling with try-except
+Python provides robust error handling through try, except, else, and finally blocks. Using specific exceptions (like ValueError, TypeError, KeyError) instead of a bare except clause
+
+Источник: Dictionary Methods and Operations
+you to specify a default value if the key does not exist, preventing KeyError exceptions. The update() method can merge one dictionary into another.
+
+Источник: Debugging in Python
+Python provides several tools for debugging including print statements, the built-in pdb debugger, and IDE features. Using assertions (assert statement) is also a good practice","Error Handling with try-except, Dictionary Methods and Operations, Debugging in Python"

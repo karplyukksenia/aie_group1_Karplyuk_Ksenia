@@ -1,0 +1,11 @@
+query,expected_doc_id,expected_title,retrieved_doc_ids,first_relevant_rank,hit_at_3,hit_at_5,recall_at_5
+What is a list in Python and how is it created?,doc1,Python Lists Basics,"doc1,doc3,doc1,doc2,doc1",1,1,1,1.0
+What methods can I use to add or remove elements from a list?,doc2,Working with Python Lists,"doc2,doc1,doc1,doc2,doc3",1,1,1,1.0
+What is the difference between lists and tuples?,doc5,Lists vs Tuples,"doc5,doc4,doc5,doc1,doc3",1,1,1,1.0
+How do you create and use a dictionary in Python?,doc6,Dictionaries in Python,"doc6,doc7,doc6,doc1,doc14",1,1,1,1.0
+What are useful methods when working with dictionaries?,doc7,Dictionary Methods and Operations,"doc7,doc6,doc6,doc14,doc6",1,1,1,1.0
+How do you define a function in Python?,doc8,Functions in Python,"doc8,doc9,doc8,doc18,doc1",1,1,1,1.0
+What are lambda functions and when should they be used?,doc10,Lambda Functions,"doc10,doc10,doc8,doc8,doc9",1,1,1,1.0
+How can I handle exceptions and errors in Python?,doc13,Error Handling with try-except,"doc13,doc7,doc24,doc20,doc24",1,1,1,1.0
+What is the difference between mutable and immutable objects?,doc14,Mutable vs Immutable Objects,"doc14,doc5,doc15,doc5,doc6",1,1,1,1.0
+What is the difference between shallow copy and deep copy?,doc15,Shallow Copy vs Deep Copy,"doc15,doc15,doc2,doc14,doc2",1,1,1,1.0

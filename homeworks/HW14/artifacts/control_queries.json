@@ -1,0 +1,52 @@
+[
+  {
+    "query": "What is a list in Python and how is it created?",
+    "expected_doc_id": "doc1",
+    "expected_title": "Python Lists Basics"
+  },
+  {
+    "query": "What methods can I use to add or remove elements from a list?",
+    "expected_doc_id": "doc2",
+    "expected_title": "Working with Python Lists"
+  },
+  {
+    "query": "What is the difference between lists and tuples?",
+    "expected_doc_id": "doc5",
+    "expected_title": "Lists vs Tuples"
+  },
+  {
+    "query": "How do you create and use a dictionary in Python?",
+    "expected_doc_id": "doc6",
+    "expected_title": "Dictionaries in Python"
+  },
+  {
+    "query": "What are useful methods when working with dictionaries?",
+    "expected_doc_id": "doc7",
+    "expected_title": "Dictionary Methods and Operations"
+  },
+  {
+    "query": "How do you define a function in Python?",
+    "expected_doc_id": "doc8",
+    "expected_title": "Functions in Python"
+  },
+  {
+    "query": "What are lambda functions and when should they be used?",
+    "expected_doc_id": "doc10",
+    "expected_title": "Lambda Functions"
+  },
+  {
+    "query": "How can I handle exceptions and errors in Python?",
+    "expected_doc_id": "doc13",
+    "expected_title": "Error Handling with try-except"
+  },
+  {
+    "query": "What is the difference between mutable and immutable objects?",
+    "expected_doc_id": "doc14",
+    "expected_title": "Mutable vs Immutable Objects"
+  },
+  {
+    "query": "What is the difference between shallow copy and deep copy?",
+    "expected_doc_id": "doc15",
+    "expected_title": "Shallow Copy vs Deep Copy"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "doc1",
+    "title": "Python Lists Basics",
+    "text": "A list in Python is an ordered, mutable collection of items. Lists can contain elements of different types including integers, strings, floats, and even other lists or dictionaries. Lists are created using square brackets []. One of the most important features of lists is that they can be modified after creation."
+  },
+  {
+    "id": "doc2",
+    "title": "Working with Python Lists",
+    "text": "Python lists support many useful methods such as append(), extend(), insert(), remove(), pop(), and clear(). The append() method adds a single element to the end of the list, while extend() can add multiple elements from another iterable. It's important to understand the difference between these methods to avoid unexpected behavior."
+  },
+  {
+    "id": "doc3",
+    "title": "List Comprehensions",
+    "text": "List comprehensions provide a concise way to create new lists. They consist of an expression followed by a for clause and optionally an if condition. List comprehensions are often more readable and faster than using traditional for loops with append(). However, very complex comprehensions can reduce code readability."
+  },
+  {
+    "id": "doc4",
+    "title": "Python Tuples",
+    "text": "A tuple is an ordered, immutable collection of elements. Unlike lists, tuples cannot be changed after they are created. Tuples are defined using parentheses () and are commonly used when you want to ensure that the data remains constant throughout the program execution."
+  },
+  {
+    "id": "doc5",
+    "title": "Lists vs Tuples",
+    "text": "The main difference between lists and tuples is mutability. Lists are mutable, meaning their elements can be changed, added, or removed. Tuples are immutable. Because of this, tuples are generally faster and can be used as keys in dictionaries, while lists cannot."
+  },
+  {
+    "id": "doc6",
+    "title": "Dictionaries in Python",
+    "text": "A dictionary is an unordered collection of key-value pairs. Keys must be unique and immutable (usually strings or numbers), while values can be of any type. Dictionaries are created using curly braces {} and are one of the most frequently used data structures in Python due to their fast lookup time."
+  },
+  {
+    "id": "doc7",
+    "title": "Dictionary Methods and Operations",
+    "text": "Common dictionary methods include keys(), values(), items(), get(), update(), and pop(). The get() method is particularly useful because it allows you to specify a default value if the key does not exist, preventing KeyError exceptions. The update() method can merge one dictionary into another."
+  },
+  {
+    "id": "doc8",
+    "title": "Functions in Python",
+    "text": "Functions are reusable blocks of code that perform a specific task. They are defined using the def keyword followed by the function name and parentheses. Functions help organize code, avoid repetition, and make programs more modular and easier to maintain."
+  },
+  {
+    "id": "doc9",
+    "title": "Function Arguments",
+    "text": "Python functions can accept different types of arguments: positional arguments, keyword arguments, default arguments, and variable-length arguments using *args and **kwargs. Understanding these argument types is essential for writing flexible and powerful functions."
+  },
+  {
+    "id": "doc10",
+    "title": "Lambda Functions",
+    "text": "Lambda functions are small anonymous functions defined with the lambda keyword. They can take any number of arguments but can only have one expression. Lambda functions are often used with higher-order functions like map(), filter(), and sorted() when a short function is needed."
+  },
+  {
+    "id": "doc11",
+    "title": "For and While Loops",
+    "text": "For loops are used to iterate over sequences such as lists, tuples, strings, and dictionaries. While loops continue executing as long as a certain condition remains true. It is important to ensure that the loop has a proper termination condition to avoid infinite loops."
+  },
+  {
+    "id": "doc12",
+    "title": "List Comprehensions vs Traditional Loops",
+    "text": "Although list comprehensions are elegant and often faster, traditional for loops can be more readable when the logic becomes complex. In many cases, choosing between a comprehension and a loop depends on the complexity of the operation and the need for code clarity."
+  },
+  {
+    "id": "doc13",
+    "title": "Error Handling with try-except",
+    "text": "Python provides robust error handling through try, except, else, and finally blocks. Using specific exceptions (like ValueError, TypeError, KeyError) instead of a bare except clause is considered best practice as it makes debugging much easier."
+  },
+  {
+    "id": "doc14",
+    "title": "Mutable vs Immutable Objects",
+    "text": "Mutable objects can be changed after creation (lists, dictionaries, sets), while immutable objects cannot (tuples, strings, integers, floats). This distinction is crucial when working with function arguments and when trying to use objects as dictionary keys."
+  },
+  {
+    "id": "doc15",
+    "title": "Shallow Copy vs Deep Copy",
+    "text": "When copying mutable objects, it's important to understand the difference between shallow and deep copies. A shallow copy creates a new object but inserts references to the original elements. A deep copy creates a completely new copy of all nested objects using the copy.deepcopy() function."
+  },
+  {
+    "id": "doc16",
+    "title": "Python Generators",
+    "text": "Generators are a special type of iterator that allow lazy evaluation. They are created using functions with the yield keyword instead of return. Generators are memory efficient because they generate values on the fly rather than storing the entire sequence in memory."
+  },
+  {
+    "id": "doc17",
+    "title": "Built-in Functions",
+    "text": "Python comes with many useful built-in functions such as len(), sum(), max(), min(), sorted(), enumerate(), zip(), and map(). Knowing these functions can significantly reduce the amount of code you need to write and improve performance."
+  },
+  {
+    "id": "doc18",
+    "title": "Common Python Mistakes",
+    "text": "Beginners often make mistakes such as modifying a list while iterating over it, using mutable default arguments in functions, confusing 'is' with '==', and misunderstanding how variable scope works in Python. Being aware of these pitfalls helps write more robust code."
+  },
+  {
+    "id": "doc19",
+    "title": "String Formatting Techniques",
+    "text": "Python offers several ways to format strings: old-style formatting with %, str.format(), and f-strings (formatted string literals) introduced in Python 3.6. F-strings are generally the most readable and fastest option in modern Python code."
+  },
+  {
+    "id": "doc20",
+    "title": "Working with Files",
+    "text": "Python provides simple and powerful tools for working with files using the open() function and context managers (with statement). It's recommended to always use context managers when working with files to ensure they are properly closed even if an exception occurs."
+  },
+  {
+    "id": "doc21",
+    "title": "Modules and Packages",
+    "text": "Modules are Python files containing Python code, while packages are directories of modules. You can import modules using the import statement. Creating your own modules and packages helps organize larger projects and promotes code reusability."
+  },
+  {
+    "id": "doc22",
+    "title": "Virtual Environments",
+    "text": "Virtual environments allow you to create isolated Python environments for different projects. This prevents version conflicts between packages. The most popular tools for managing virtual environments are venv (built-in) and conda."
+  },
+  {
+    "id": "doc23",
+    "title": "PEP 8 Style Guide",
+    "text": "PEP 8 is the official style guide for Python code. It recommends using 4 spaces for indentation, limiting line length to 79 characters, and following specific naming conventions. Following PEP 8 makes your code more readable and professional."
+  },
+  {
+    "id": "doc24",
+    "title": "Debugging in Python",
+    "text": "Python provides several tools for debugging including print statements, the built-in pdb debugger, and IDE features. Using assertions (assert statement) is also a good practice to catch logical errors early during development."
+  },
+  {
+    "id": "doc25",
+    "title": "Performance Tips for Python",
+    "text": "To improve performance in Python, developers often use built-in functions, avoid unnecessary loops, use list comprehensions wisely, and profile their code with cProfile. Sometimes rewriting critical parts in Cython or using NumPy can bring significant speed improvements."
+  }
+]

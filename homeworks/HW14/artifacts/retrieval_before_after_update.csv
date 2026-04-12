@@ -1,0 +1,4 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+What is a set in Python and why is it useful?,"doc1, doc6, doc6","doc26, doc1, doc27",True
+How to perform union and intersection on collections in Python?,"doc1, doc2, doc18","doc27, doc26, doc1",True
+When should I use a set instead of a list?,"doc1, doc5, doc12","doc28, doc26, doc1",True
